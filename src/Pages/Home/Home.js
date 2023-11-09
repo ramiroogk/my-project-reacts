@@ -1,6 +1,6 @@
 
 const Micomponente = () =>{
-    return <div> Hola </div>
+    return(<div>Hola</div>) 
 
 };
 export default Micomponente;
