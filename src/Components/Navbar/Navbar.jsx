@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from '../CartWidget/CartWidget';
+import CartModal from '../CartModal/CartModal';
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" fixed="top" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">Forza - Ind</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +28,7 @@ function NavigationBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <CartWidget/>
+        <CartModal />
       </Container>
     </Navbar>
   );
