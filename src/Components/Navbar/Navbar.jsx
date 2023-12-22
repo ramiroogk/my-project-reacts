@@ -14,18 +14,6 @@ function NavigationBar() {
           <Nav className="me-auto">
             <Nav.Link href="">Home</Nav.Link>
             <Nav.Link href="#link">Descuentos</Nav.Link>
-            <NavDropdown title="Ropa" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Gorra</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Pantalones
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Remeras</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Camperas
-              </NavDropdown.Item>
-             
-            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
         <CartModal />

@@ -8,9 +8,7 @@ function Item({ productId, name, description, price, image, stock }) {
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
-        <Card.Text>
-          {description}
-        </Card.Text>
+        <Card.Text> {description} </Card.Text>
         <Card.Text>
           ${price} c/u
         </Card.Text>

@@ -18,7 +18,9 @@ function CartModal() {
         <Modal.Header closeButton>
           <Modal.Title>Tu Carrito</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Body>Tu pedido es: 
+
+          </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

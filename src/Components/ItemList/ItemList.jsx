@@ -22,12 +22,12 @@ const ItemList = () => {
 
   return (
     <CardGroup style={{ justifyContent: "center" }}>
-      {productList.map(({ id, name, descriptions, price, image, stock }, index) => (
+      {productList.map(({ id, name, description, price, image, stock }, index) => (
         <div key={index}>
           <Item
             productId={id}
             name={name}
-            description={descriptions}
+            description={description}
             price={price}
             image={image}
             stock={stock}

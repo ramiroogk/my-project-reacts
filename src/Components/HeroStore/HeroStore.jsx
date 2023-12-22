@@ -7,7 +7,7 @@ export default function HeroImage() {
         className="p-5 text-center bg-image"
         style={{
           backgroundImage:
-            "url('https://us.123rf.com/450wm/pitinan/pitinan1704/pitinan170400318/76219931-fondo-borroso-de-centro-comercial-en-ropa-de-mujer-y-%C3%A1rea-de-moda.jpg')",
+            "url('https://www.themanual.com/wp-content/uploads/sites/9/2019/07/wellend-boardshort.jpg?resize=1200%2C630&p=1')",
           height: 400,
           backgroundSize: '100%'
         }}
